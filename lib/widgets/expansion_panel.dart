@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/panel_model.dart';
-import '../controllers/task_controller.dart';
+import '../utils/task_controller.dart';
 
 class ExpansionPanelItem extends StatefulWidget {
   final PanelModel panel;
@@ -24,7 +24,7 @@ class _ExpansionPanelItemState extends State<ExpansionPanelItem> {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
         child: Container(
-          decoration: BoxDecoration(
+          decoration:const  BoxDecoration(
             border: Border.fromBorderSide(
               BorderSide(color: Colors.blue, width: 2),
             ),

@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:todo_iti/widgets/custom_elevated_button.dart';
+import 'package:todoiti/widgets/custom_elevated_button.dart';
 
-import '../../models/panel_model.dart';
-import '../../utils/select_time.dart';
+import '../models/panel_model.dart';
+import '../utils/select_time.dart';
 
 class TaskBottomSheet extends StatefulWidget {
   final Function(PanelModel) onAdd;

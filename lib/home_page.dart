@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:todo_iti/widgets/bottom_sheets/task_bottom_sheet.dart';
+import 'package:todoiti/widgets/task_bottom_sheet.dart';
 
-import '../controllers/task_controller.dart';
-import '../widgets/expansion_panel.dart';
+
+import 'utils/task_controller.dart';
+import 'widgets/expansion_panel.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -101,9 +102,9 @@ class _HomePageState extends State<HomePage> {
                 },
               );
             },
-            child: Row(
+            child:const  Row(
               mainAxisSize: MainAxisSize.min,
-              children: const [
+              children: [
                 Icon(
                   Icons.add,
                   size: 30,
