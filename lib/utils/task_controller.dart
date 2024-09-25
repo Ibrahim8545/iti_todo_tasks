@@ -18,4 +18,5 @@ class TaskController {
   static void deleteTask(PanelModel panel, TaskItem task) {
     panel.items.remove(task);
   }
+  
 }

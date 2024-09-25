@@ -16,7 +16,10 @@ void main() async {
   runApp(
     ChangeNotifierProvider(
       create: (_) => TaskViewModel(),
-      child: MaterialApp(home: HomePage()),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: HomePage()
+        ),
     ),
   );
 }
